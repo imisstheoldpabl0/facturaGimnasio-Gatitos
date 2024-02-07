@@ -1,0 +1,39 @@
+table, th, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    padding-left: 5px;
+  }
+
+table {
+    width: 600px;
+}
+
+td {
+    width: 100px;
+    height: 25px;
+}
+
+
+th {
+    text-align: left;
+    background-color: rgb(222, 222, 222);
+    height: 25px;
+    padding-left: 5px;
+}
+
+.rowsLineSpacing {
+    line-height: 20px;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+table .kit > td > a {
+    margin-right: 20px;
+    padding-right: 50px;
+}
